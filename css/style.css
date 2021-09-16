@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 40%;
+  margin: 0 auto;
+}
+
 .clearfix::after{
   content: '';
   display: table;
@@ -48,16 +53,16 @@ footer {
 .nav, .widget{
   width: 18%;
   background-color: #abcfe7;
-  min-height: 200px;
 }
- .nav, .main-content{
-   margin-right: 2%;
- }
+
+.main-content{
+  margin: 0% 1%;
+}
 
 .widget {
   background-color: #abcfe7;
 }
 .main-content {
-  width: 60%;
-  background-color: red;
+  width: 62%;
+  background-color: #abcfe7;
 }
